@@ -35,7 +35,7 @@
     max-height: 100%;
     display: block;
 }
-.showcase-right{
+.app-right{
     color: #fff;
     font-family: 'Times New Roman', Times, serif;
     padding: 20%;
@@ -74,11 +74,6 @@
 /*Game section*/
 
 /**/
-.btn-group{
-    color: #fff;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(189, 218, 255);
-}
 .rightText{
     text-align: right;
 }
