@@ -17,11 +17,14 @@
      font-weight: bold;
  }
  
+ .rightText{
+    text-align: right;
+}
 
 
 
 
-/**/
+/*End section*/
 
 
 /*App section*/
@@ -52,6 +55,8 @@
 #home{ 
     margin-top: 75px;
 }
+/*End section*/
+
 /*Music section*/
 #Music{
     background-image: url("../images/Festival-Crowd--e1472160900369.jpg");
@@ -68,13 +73,42 @@
     font-family: 'Times New Roman', Times, serif;
     padding: 20%;
     text-align: center;
-    margin-top: 25%;
+    margin-top: 10%;
 }
-/**/
+/*End section*/
+
 /*Game section*/
+#Games{
+    background-image: url("../images/image-5-1499x625.jpg");
+    background-size: cover;
+}
+.games-left{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20%;
+    text-align: center;
+    margin-top: 15%;
+    
+}
+/*End section*/
 
-/**/
-.rightText{
-    text-align: right;
+
+/*Store Section*/
+#Store{
+background-image: url("../images/img_store.jpg");
+background-size: cover;
+}
+.store-left{
+        color: rgb(255, 255, 255);
+        font-family: 'Times New Roman', Times, serif;
+        padding: 20%;
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 20%;
+        font-weight: bolder;
+}
+.centerized{
+    margin-left: 18%;
 }
 
+/**/
