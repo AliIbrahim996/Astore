@@ -112,3 +112,6 @@ background-size: cover;
 }
 
 /**/
+body{
+    overflow:scroll;
+}
