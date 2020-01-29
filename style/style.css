@@ -1,26 +1,85 @@
+/*Navbar section*/
 .img1{
-   width: 50px;
+    width: 50px;
+ 
+ }
+ nav{
+     margin-bottom:30px ;
+ }
+ .navbar-default{
+     background: #fff;
+     font-family: Arial, Helvetica, sans-serif;
+     border: 0;
+ }
+ 
+ .navbar-brand{
+     font-size: 25px;
+     font-weight: bold;
+ }
+ 
 
+
+
+
+/**/
+
+
+/*App section*/
+#Apps{
+    margin-top: 75px;
+    background-image: url("../images/shutterstock_331435670.jpg");
+    background-size: cover;
 }
-.navbar-default{
-    background: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 0;
+#app_image{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+.showcase-right{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20%;
+    text-align: center;
+    margin-top: 30%;
 }
 
-.navbar-brand{
-    font-size: 25px;
-    font-weight: bold;
+.btn-primary{
+    font-family: 'Times New Roman', Times, serif;
 }
-#app_img{
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
-    width: 100%;
+/*End section*/
+
+/*Home section*/
+#home{ 
+    margin-top: 75px;
 }
-#home{
-    background-color: rgb(101, 154, 224);
+/*Music section*/
+#Music{
+    background-image: url("../images/Festival-Crowd--e1472160900369.jpg");
+    background-size: cover;
+}
+#music_img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-top: 25%;
+}
+.music-left{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20%;
+    text-align: center;
+    margin-top: 25%;
+}
+/**/
+/*Game section*/
+
+/**/
+.btn-group{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(189, 218, 255);
+}
+.rightText{
+    text-align: right;
 }
 
