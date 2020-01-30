@@ -73,10 +73,8 @@
                           <button class="btn btn-danger btn-lg">Let's try</button>
                           </div>
                         </div>
-                        <div class="col-md-6 col-sm-6">
-                          <div class="shadow-sm p-3 mb-5  rounded music-right">
-                            <img src="images/2SqPQj4CcRktWmw2YAWbSH.png" id="music_img">
-                            </div>
+                        <div class="col-md-6 col-sm-6 music-right hadow-sm p-3 mb-5  rounded">
+                          <img src="images/2SqPQj4CcRktWmw2YAWbSH.png" id="music_img">
                           </div>
                     </div>
                 </div>
@@ -109,6 +107,53 @@
               </div>
           </div>
       </section>
+      <section id="Contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <div class="contact-left">
+                <span id="Contact_span">Leave us a message</span>
+                <form class="contatc_form">
+                <div class="form-group row">
+                <label for="colFormLabel" class="col-sm-2 col-form-label col-form-label">Email</label>
+                <div class="col-sm-10">
+                <input type="email" class="form-control form-control-sm" id="colFormLabel" placeholder=" Enter Your Email Address ">
+                </div>
+                <label for="contactArea" class="col-sm-2 col-form-label col-form-label">Your message</label>
+                <div class="col-sm-10">
+                <textarea name="contatc_us_area" class="form-control form-control-sm" cols="30" rows="10" placeholder="Type your message here" id="contactArea">
+                </textarea>
+                
+                </div>
+                <div class="col-sm-10">
+                  <button class="btn btn-primary" id="contatc_button">Send</button>
+                </div>
+                </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <div class="contact-right">
+
+
+
+
+
+
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="copyRights">
+        <div class="center">
+          All rights reserived &copy;
+        </div>
+        <div class="center">
+          Designed by <span style="font-weight: bold;">Ali Ibrahim</span>
+        </div>
+      </section>
 
         <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -116,23 +161,23 @@
         <script>
           window.sr= ScrollReveal();
           sr.reveal('.app-left',{
-            duration:3000,
+            duration:4000,
             origin:'left',
           }
           );
           sr.reveal('.app-right',{
-            duration:3000,
+            duration:4500,
             origin:'right',
           }
           );
           sr.reveal('.music-left',{
-            duration:4000,
+            duration:5000,
             origin:'left',
 
           }
           );
           sr.reveal('.music-right',{
-            duration:4000,
+            duration:5000,
             origin:'right',
           }
           );

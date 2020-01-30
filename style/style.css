@@ -17,13 +17,6 @@
      font-weight: bold;
  }
  
- .rightText{
-    text-align: right;
-}
-
-
-
-
 /*End section*/
 
 
@@ -69,7 +62,7 @@
     margin-top: 25%;
 }
 .music-left{
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
     padding: 20%;
     text-align: center;
@@ -99,7 +92,7 @@ background-image: url("../images/img_store.jpg");
 background-size: cover;
 }
 .store-left{
-        color: rgb(255, 255, 255);
+        color: rgb(165, 47, 47);
         font-family: 'Times New Roman', Times, serif;
         padding: 20%;
         text-align: center;
@@ -110,8 +103,28 @@ background-size: cover;
 .centerized{
     margin-left: 18%;
 }
+/*End Store section*/
 
-/**/
-body{
-    overflow:scroll;
+/*Contact section*/
+#Contact{
+    background-color: rgb(206, 201, 201);
+}
+.contact-left{
+    margin-top: 15%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#Contact_span{
+    padding-bottom: 5%;
+}
+.contatc_form{
+    padding-top: 5%;
+}
+#contatc_button{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+/*End Contact section*/
+.center{
+    margin-left: 25%;
+    display: inline;
 }
