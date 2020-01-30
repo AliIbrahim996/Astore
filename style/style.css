@@ -112,6 +112,7 @@ background-size: cover;
 .contact-left{
     margin-top: 15%;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 #Contact_span{
     padding-bottom: 5%;
@@ -122,6 +123,266 @@ background-size: cover;
 #contatc_button{
     margin-left: 20%;
     margin-top: 5%;
+}
+.contact-right{
+    margin-top: 15%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#follow{
+    padding-bottom: 8%;
+}
+.middle{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+.btt{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #f1f1f1;
+    margin: 5px;
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+    box-shadow: 0px 5px 15px -5px #00000070; 
+    color:#3498db;
+    overflow: hidden;
+    position: relative;
+}
+.btt i{
+    line-height: 60px;
+    font-size: 26px;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+}
+.btt:hover i{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    color: #f1f1f1;
+}
+.btt::before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #3498db;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    left:-110%;
+    top:90%
+}
+.btt:hover::before{
+    animation: aaa 0.7s 1;
+    -webkit-animation: aaa 0.7s 1;
+    top:-10%;
+    left:-10%
+}
+
+.btt1{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #f1f1f1;
+    margin: 5px;
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+    box-shadow: 0px 5px 15px -5px #00000070; 
+    color:#3498db;
+    overflow: hidden;
+    position: relative;
+}
+.btt1 i{
+    line-height: 60px;
+    font-size: 26px;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+}
+.btt1:hover i{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    color: #f1f1f1;
+}
+.btt1::before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #db3434;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    left:-110%;
+    top:90%
+}
+.btt1:hover::before{
+    animation: aaa 0.7s 1;
+    -webkit-animation: aaa 0.7s 1;
+    top:-10%;
+    left:-10%
+}
+
+.btt2{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #f1f1f1;
+    margin: 5px;
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+    box-shadow: 0px 5px 15px -5px #00000070; 
+    color:#3498db;
+    overflow: hidden;
+    position: relative;
+}
+.btt2 i{
+    line-height: 60px;
+    font-size: 26px;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+}
+.btt2:hover i{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    color: #f1f1f1;
+}
+.btt2::before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #dc39eb;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    left:-110%;
+    top:90%
+}
+.btt2:hover::before{
+    animation: aaa 0.7s 1;
+    -webkit-animation: aaa 0.7s 1;
+    top:-10%;
+    left:-10%
+}
+
+.btt3{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #f1f1f1;
+    margin: 5px;
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+    box-shadow: 0px 5px 15px -5px #00000070; 
+    color:#3498db;
+    overflow: hidden;
+    position: relative;
+}
+.btt3 i{
+    line-height: 60px;
+    font-size: 26px;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+}
+.btt3:hover i{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    color: #f1f1f1;
+}
+.btt3::before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #000000;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    left:-110%;
+    top:90%
+}
+.btt3:hover::before{
+    animation: aaa 0.7s 1;
+    -webkit-animation: aaa 0.7s 1;
+    top:-10%;
+    left:-10%
+}
+
+@keyframes aaa{
+    0%{
+        left:-110%;
+        top:90%
+    }
+    50%{
+        left:10%;
+        top: -30%
+    }
+    100%{
+        top:-10%;
+        left:-10%
+    }
+
+}
+.call{
+    position: absolute;
+    top: 70%;
+    transform: translateY(-70%);
+    -webkit-transform: translateY(-70%);
+    -moz-transform: translateY(-70%);
+    -ms-transform: translateY(-70%);
+    -o-transform: translateY(-70%);
+    width: 100%;
+    text-align: center;
 }
 /*End Contact section*/
 .center{
