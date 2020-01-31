@@ -22,21 +22,24 @@
 
 /*App section*/
 #Apps{
-    margin-top: 75px;
-    background-image: url("../images/shutterstock_331435670.jpg");
+    margin-top: 5%;
+    background-color: #09acf870;
+    background-image: linear-gradient(#09acf870,#fff);
     background-size: cover;
 }
 #app_image{
     max-width: 100%;
     max-height: 100%;
     display: block;
+    margin-top: 5%;
 }
 .app-right{
     color: #fff;
     font-family: 'Times New Roman', Times, serif;
     padding: 20%;
     text-align: center;
-    margin-top: 30%;
+    margin-top: 25%;
+    
 }
 
 .btn-primary{
@@ -45,14 +48,13 @@
 /*End section*/
 
 /*Home section*/
-#home{ 
-    margin-top: 75px;
-}
+
 /*End section*/
 
 /*Music section*/
 #Music{
-    background-image: url("../images/Festival-Crowd--e1472160900369.jpg");
+    background-color: #fff;
+    background-image: linear-gradient(#fff,#000);
     background-size: cover;
 }
 #music_img{
@@ -60,6 +62,12 @@
     max-height: 100%;
     display: block;
     margin-top: 25%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0px 5px 15px -5px #00000070;
 }
 .music-left{
     color: rgb(255, 255, 255);
@@ -72,8 +80,15 @@
 
 /*Game section*/
 #Games{
-    background-image: url("../images/image-5-1499x625.jpg");
+    background-color: #000;
+    background-image: linear-gradient(#000,#fff);
     background-size: cover;
+    
+}
+#game-img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
 }
 .games-left{
     color: #fff;
@@ -88,52 +103,92 @@
 
 /*Store Section*/
 #Store{
-background-image: url("../images/img_store.jpg");
-background-size: cover;
+    background-color: #fff;
+    background-image: linear-gradient(#fff,#09acf870);
+    background-size: cover;
 }
 .store-left{
         color: rgb(165, 47, 47);
         font-family: 'Times New Roman', Times, serif;
         padding: 20%;
-        text-align: center;
-        margin-top: 10%;
-        margin-left: 20%;
+
         font-weight: bolder;
 }
 .centerized{
-    margin-left: 18%;
+    padding-bottom: 4%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
 }
 /*End Store section*/
 
 /*Contact section*/
 #Contact{
-    background-color: rgb(206, 201, 201);
-}
-.contact-left{
-    margin-top: 15%;
     font-family: 'Times New Roman', Times, serif;
+    background-color: #fff;
+    background-image: linear-gradient(#fff,#09acf870);
+    background-size: cover;
+}
+
+#con{
+    color: rgb(43, 43, 43) ;
+    padding-bottom: 4%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-center{
+    padding-bottom: 4%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-group{
+    margin-bottom: 0;
+    
     
 }
-#Contact_span{
-    padding-bottom: 5%;
-}
-.contatc_form{
-    padding-top: 5%;
-}
 #contatc_button{
-    margin-left: 20%;
+    margin-bottom: 5%;
     margin-top: 5%;
 }
-.contact-right{
-    margin-top: 15%;
-    font-family: 'Times New Roman', Times, serif;
+/*End section*/
+/*follow section*/
+#follow-us{
+    background-color: #09acf870;
+    background-image: linear-gradient(#86d9ff70,#fff);
+    background-size: cover;
 }
+
 #follow{
-    padding-bottom: 8%;
+    padding-bottom: 4%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 .middle{
-    position: absolute;
-    top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
@@ -141,7 +196,9 @@ background-size: cover;
     -o-transform: translateY(-50%);
     width: 100%;
     text-align: center;
+    margin-top: 2%;
 }
+
 .btt{
     display: inline-block;
     width: 60px;
@@ -158,6 +215,7 @@ background-size: cover;
     overflow: hidden;
     position: relative;
 }
+
 .btt i{
     line-height: 60px;
     font-size: 26px;
@@ -358,6 +416,61 @@ background-size: cover;
     left:-10%
 }
 
+
+.btt4{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #f1f1f1;
+    margin: 5px;
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+    box-shadow: 0px 5px 15px -5px #00000070; 
+    color:#3498db;
+    overflow: hidden;
+    position: relative;
+}
+.btt4 i{
+    line-height: 60px;
+    font-size: 26px;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+}
+.btt4:hover i{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    color: #f1f1f1;
+}
+.btt4::before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: rgb(6, 187, 6);
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    left:-110%;
+    top:90%
+}
+.btt4:hover::before{
+    animation: aaa 0.7s 1;
+    -webkit-animation: aaa 0.7s 1;
+    top:-10%;
+    left:-10%
+}
+
 @keyframes aaa{
     0%{
         left:-110%;
@@ -373,19 +486,19 @@ background-size: cover;
     }
 
 }
-.call{
-    position: absolute;
-    top: 70%;
-    transform: translateY(-70%);
-    -webkit-transform: translateY(-70%);
-    -moz-transform: translateY(-70%);
-    -ms-transform: translateY(-70%);
-    -o-transform: translateY(-70%);
-    width: 100%;
-    text-align: center;
-}
+
+
+
+/*End section*/
+
 /*End Contact section*/
 .center{
-    margin-left: 25%;
-    display: inline;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
 }
